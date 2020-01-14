@@ -6,6 +6,7 @@ target 'RXDemo' do
 
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
+  pod 'Action'
   pod 'XCoordinator'
   pod 'XCoordinator/RxSwift'
   pod 'XCoordinator/Combine'

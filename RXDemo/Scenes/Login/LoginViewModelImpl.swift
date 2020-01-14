@@ -6,8 +6,20 @@
 //  Copyright © 2020 沈海超. All rights reserved.
 //
 
-import UIKit
+import Action
+import RxSwift
+import XCoordinator
 
-class LoginViewModelImpl: NSObject {
+class LoginViewModelImpl: LoginViewModel, LoginViewModelInput, LoginViewModelOutput {
+    private(set) lazy var loginTrigger = loginAction.inputs
+    private let router: UnownedRouter<AppRoute>
+    
+    private lazy var loginAction = CocoaAction { [unowned self] in
+        self.router.rx.trigger(.login)
+    }
+    
+    init(router: UnownedRouter<AppRoute>) {
+        self.router = router
+    }
 
 }

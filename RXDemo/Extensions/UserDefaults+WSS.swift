@@ -3,7 +3,7 @@
 //  XCoordinator-Example
 //
 //  Created by 沈海超 on 2020/1/8.
-//  Copyright © 2020 QuickBird Studios. All rights reserved.
+//  Copyright © 2020 沈海超. All rights reserved.
 //
 
 import Foundation
