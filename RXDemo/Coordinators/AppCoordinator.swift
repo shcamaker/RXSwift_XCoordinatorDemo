@@ -25,9 +25,11 @@ class AppCoordinator: NavigationCoordinator<AppRoute> {
            switch route {
            case .login:
                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-               let viewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
-//               let viewModel = LoginViewModelImpl(router: unownedRouter)
-//               viewController.bind(to: viewModel)
+               guard var viewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController else {
+                return .none()
+               }
+               let viewModel = LoginViewModelImpl(router: unownedRouter)
+               viewController.bind(to: viewModel)
                return .push(viewController)
             
         }

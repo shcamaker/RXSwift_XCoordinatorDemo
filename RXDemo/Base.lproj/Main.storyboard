@@ -53,9 +53,6 @@
                                         <state key="normal" title="登录">
                                             <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="bOQ-83-zsF" kind="show" id="HCU-WY-Wuw"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -83,7 +80,7 @@
             <objects>
                 <tableViewController id="bOQ-83-zsF" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="00r-H0-KeR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
