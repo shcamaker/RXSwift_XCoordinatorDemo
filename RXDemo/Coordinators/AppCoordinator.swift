@@ -30,6 +30,7 @@ class AppCoordinator: NavigationCoordinator<AppRoute> {
                }
                let viewModel = LoginViewModelImpl(router: unownedRouter)
                viewController.bind(to: viewModel)
+               print(viewController)
                return .push(viewController)
             
         }
