@@ -18,6 +18,7 @@
 		39C43D2223C35D95005B6754 /* RXDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D2123C35D95005B6754 /* RXDemoUITests.swift */; };
 		39C43D3623C69CBD005B6754 /* UserDaults+WSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D3423C69CBD005B6754 /* UserDaults+WSS.swift */; };
 		39C43D3723C69CBD005B6754 /* UserDefaults+WSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D3523C69CBD005B6754 /* UserDefaults+WSS.swift */; };
+		39C43D3923D2F619005B6754 /* HomeTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D3823D2F619005B6754 /* HomeTabCoordinator.swift */; };
 		5F79E6CAB916D4E6B1E361F7 /* Pods_RXDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C655F62F9BC790C20A31F5E /* Pods_RXDemo.framework */; };
 		C3EC99DD23C41DC400B041CD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC99DC23C41DC400B041CD /* AppCoordinator.swift */; };
 		C3ED298623CD981A00DB3EBD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED298523CD981A00DB3EBD /* LoginViewController.swift */; };
@@ -64,6 +65,7 @@
 		39C43D2323C35D95005B6754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C43D3423C69CBD005B6754 /* UserDaults+WSS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDaults+WSS.swift"; sourceTree = "<group>"; };
 		39C43D3523C69CBD005B6754 /* UserDefaults+WSS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+WSS.swift"; sourceTree = "<group>"; };
+		39C43D3823D2F619005B6754 /* HomeTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeTabCoordinator.swift; path = "../../../../Downloads/XCoordinator-Example-master/XCoordinator-Example/Extensions/HomeTabCoordinator.swift"; sourceTree = "<group>"; };
 		5C655F62F9BC790C20A31F5E /* Pods_RXDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6191C9B248991565E77F8906 /* Pods-RXDemo-RXDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXDemo-RXDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-RXDemo-RXDemoUITests/Pods-RXDemo-RXDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		701A169B91BC5C8E17F783B9 /* Pods-RXDemo-RXDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXDemo-RXDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-RXDemo-RXDemoUITests/Pods-RXDemo-RXDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				C3EC99DC23C41DC400B041CD /* AppCoordinator.swift */,
+				39C43D3823D2F619005B6754 /* HomeTabCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 				39C43D0423C35D94005B6754 /* ViewController.swift in Sources */,
 				39C43D3723C69CBD005B6754 /* UserDefaults+WSS.swift in Sources */,
 				C3ED298D23CDB56E00DB3EBD /* BindableType.swift in Sources */,
+				39C43D3923D2F619005B6754 /* HomeTabCoordinator.swift in Sources */,
 				C3ED298823CD982C00DB3EBD /* LoginViewModel.swift in Sources */,
 				39C43D0023C35D94005B6754 /* AppDelegate.swift in Sources */,
 				39C43D3623C69CBD005B6754 /* UserDaults+WSS.swift in Sources */,
