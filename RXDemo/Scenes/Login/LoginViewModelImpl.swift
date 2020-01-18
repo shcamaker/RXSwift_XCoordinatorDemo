@@ -15,7 +15,7 @@ class LoginViewModelImpl: LoginViewModel, LoginViewModelInput, LoginViewModelOut
     private let router: UnownedRouter<AppRoute>
     
     private lazy var loginAction = CocoaAction { [unowned self] in
-        self.router.rx.trigger(.login)
+        self.router.rx.trigger(.homeTab)
     }
     
     init(router: UnownedRouter<AppRoute>) {

@@ -24,6 +24,16 @@
 		39C43D3F23D30FED005B6754 /* MineCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D3E23D30FED005B6754 /* MineCoordinator.swift */; };
 		39C43D4123D31007005B6754 /* CloudVillageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D4023D31007005B6754 /* CloudVillageCoordinator.swift */; };
 		39C43D4323D31017005B6754 /* AccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D4223D31017005B6754 /* AccountCoordinator.swift */; };
+		39C43D4A23D3309F005B6754 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D4923D3309F005B6754 /* DiscoverViewController.swift */; };
+		39C43D4C23D339E0005B6754 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D4B23D339E0005B6754 /* AccountViewController.swift */; };
+		39C43D4E23D339F3005B6754 /* CloundVillageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D4D23D339F3005B6754 /* CloundVillageViewController.swift */; };
+		39C43D5023D339FE005B6754 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D4F23D339FE005B6754 /* MineViewController.swift */; };
+		39C43D5223D33A0D005B6754 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C43D5123D33A0D005B6754 /* VideoViewController.swift */; };
+		39C43D5423D33A37005B6754 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C43D5323D33A37005B6754 /* Account.storyboard */; };
+		39C43D5623D33A70005B6754 /* CloudVillage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C43D5523D33A70005B6754 /* CloudVillage.storyboard */; };
+		39C43D5823D33A91005B6754 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C43D5723D33A91005B6754 /* Discover.storyboard */; };
+		39C43D5A23D33AFB005B6754 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C43D5923D33AFB005B6754 /* Mine.storyboard */; };
+		39C43D5C23D33B25005B6754 /* Video.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C43D5B23D33B25005B6754 /* Video.storyboard */; };
 		5F79E6CAB916D4E6B1E361F7 /* Pods_RXDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C655F62F9BC790C20A31F5E /* Pods_RXDemo.framework */; };
 		C3EC99DD23C41DC400B041CD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC99DC23C41DC400B041CD /* AppCoordinator.swift */; };
 		C3ED298623CD981A00DB3EBD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED298523CD981A00DB3EBD /* LoginViewController.swift */; };
@@ -76,6 +86,16 @@
 		39C43D3E23D30FED005B6754 /* MineCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MineCoordinator.swift; path = "../../../../Downloads/XCoordinator-Example-master/XCoordinator-Example/Extensions/MineCoordinator.swift"; sourceTree = "<group>"; };
 		39C43D4023D31007005B6754 /* CloudVillageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CloudVillageCoordinator.swift; path = "../../../../Downloads/XCoordinator-Example-master/XCoordinator-Example/Extensions/CloudVillageCoordinator.swift"; sourceTree = "<group>"; };
 		39C43D4223D31017005B6754 /* AccountCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountCoordinator.swift; path = "../../../../Downloads/XCoordinator-Example-master/XCoordinator-Example/Extensions/AccountCoordinator.swift"; sourceTree = "<group>"; };
+		39C43D4923D3309F005B6754 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiscoverViewController.swift; path = "../../../../../Downloads/XCoordinator-Example-master/XCoordinator-Example/Extensions/DiscoverViewController.swift"; sourceTree = "<group>"; };
+		39C43D4B23D339E0005B6754 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		39C43D4D23D339F3005B6754 /* CloundVillageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloundVillageViewController.swift; sourceTree = "<group>"; };
+		39C43D4F23D339FE005B6754 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		39C43D5123D33A0D005B6754 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		39C43D5323D33A37005B6754 /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		39C43D5523D33A70005B6754 /* CloudVillage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CloudVillage.storyboard; sourceTree = "<group>"; };
+		39C43D5723D33A91005B6754 /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		39C43D5923D33AFB005B6754 /* Mine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		39C43D5B23D33B25005B6754 /* Video.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Video.storyboard; sourceTree = "<group>"; };
 		5C655F62F9BC790C20A31F5E /* Pods_RXDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6191C9B248991565E77F8906 /* Pods-RXDemo-RXDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXDemo-RXDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-RXDemo-RXDemoUITests/Pods-RXDemo-RXDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		701A169B91BC5C8E17F783B9 /* Pods-RXDemo-RXDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXDemo-RXDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-RXDemo-RXDemoUITests/Pods-RXDemo-RXDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +204,51 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		39C43D4423D32A24005B6754 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				39C43D4F23D339FE005B6754 /* MineViewController.swift */,
+				39C43D5923D33AFB005B6754 /* Mine.storyboard */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		39C43D4523D32A24005B6754 /* CloudVillage */ = {
+			isa = PBXGroup;
+			children = (
+				39C43D4D23D339F3005B6754 /* CloundVillageViewController.swift */,
+				39C43D5523D33A70005B6754 /* CloudVillage.storyboard */,
+			);
+			path = CloudVillage;
+			sourceTree = "<group>";
+		};
+		39C43D4623D32A25005B6754 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				39C43D5123D33A0D005B6754 /* VideoViewController.swift */,
+				39C43D5B23D33B25005B6754 /* Video.storyboard */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		39C43D4723D32A25005B6754 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				39C43D4B23D339E0005B6754 /* AccountViewController.swift */,
+				39C43D5323D33A37005B6754 /* Account.storyboard */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		39C43D4823D32A25005B6754 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				39C43D4923D3309F005B6754 /* DiscoverViewController.swift */,
+				39C43D5723D33A91005B6754 /* Discover.storyboard */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
 		529EC29EE286A27EACA0EFC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +290,11 @@
 			isa = PBXGroup;
 			children = (
 				C3ED298423CD97F500DB3EBD /* Login */,
+				39C43D4723D32A25005B6754 /* Account */,
+				39C43D4523D32A24005B6754 /* CloudVillage */,
+				39C43D4823D32A25005B6754 /* Discover */,
+				39C43D4423D32A24005B6754 /* Mine */,
+				39C43D4623D32A25005B6754 /* Video */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -359,7 +429,12 @@
 			files = (
 				39C43D0C23C35D95005B6754 /* LaunchScreen.storyboard in Resources */,
 				39C43D0923C35D95005B6754 /* Assets.xcassets in Resources */,
+				39C43D5623D33A70005B6754 /* CloudVillage.storyboard in Resources */,
+				39C43D5423D33A37005B6754 /* Account.storyboard in Resources */,
+				39C43D5A23D33AFB005B6754 /* Mine.storyboard in Resources */,
 				39C43D0723C35D94005B6754 /* Main.storyboard in Resources */,
+				39C43D5C23D33B25005B6754 /* Video.storyboard in Resources */,
+				39C43D5823D33A91005B6754 /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,14 +587,19 @@
 				39C43D3723C69CBD005B6754 /* UserDefaults+WSS.swift in Sources */,
 				C3ED298D23CDB56E00DB3EBD /* BindableType.swift in Sources */,
 				39C43D3923D2F619005B6754 /* HomeTabCoordinator.swift in Sources */,
+				39C43D5223D33A0D005B6754 /* VideoViewController.swift in Sources */,
+				39C43D4C23D339E0005B6754 /* AccountViewController.swift in Sources */,
 				C3ED298823CD982C00DB3EBD /* LoginViewModel.swift in Sources */,
 				39C43D0023C35D94005B6754 /* AppDelegate.swift in Sources */,
+				39C43D4E23D339F3005B6754 /* CloundVillageViewController.swift in Sources */,
 				39C43D3623C69CBD005B6754 /* UserDaults+WSS.swift in Sources */,
+				39C43D4A23D3309F005B6754 /* DiscoverViewController.swift in Sources */,
 				39C43D0223C35D94005B6754 /* SceneDelegate.swift in Sources */,
 				39C43D3D23D30FD7005B6754 /* VideoCoordinator.swift in Sources */,
 				39C43D4123D31007005B6754 /* CloudVillageCoordinator.swift in Sources */,
 				C3ED298A23CDABFF00DB3EBD /* LoginViewModelImpl.swift in Sources */,
 				39C43D3F23D30FED005B6754 /* MineCoordinator.swift in Sources */,
+				39C43D5023D339FE005B6754 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
